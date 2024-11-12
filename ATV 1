@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int Numero;
+
+    scanf("%d",&Numero);
+    printf("\nseu numero e:\n %d\n", Numero);
+
+int *pontnum = &Numero;
+
+    
+    printf("seu numero agora : \n %d", *pontnum+5);
+
+return 0; }
